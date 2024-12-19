@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Conversor/Conversor.iml" filepath="$PROJECT_DIR$/Conversor/Conversor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EquacaoQuadratica/EquacaoQuadratica.iml" filepath="$PROJECT_DIR$/EquacaoQuadratica/EquacaoQuadratica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Trabalho 1 Reginaldo.iml" filepath="$PROJECT_DIR$/.idea/Trabalho 1 Reginaldo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Validador/Validador.iml" filepath="$PROJECT_DIR$/Validador/Validador.iml" />
+    </modules>
+  </component>
+</project>
