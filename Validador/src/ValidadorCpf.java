@@ -61,6 +61,11 @@ public class ValidadorCpf {
             System.out.println("Digite o CPF (sem pontos ou traços) para validação: ");
             String cpfEntrada = scanner.nextLine();
 
+            if(cpfEntrada.length() != 11) {
+                System.out.println("Tamanho do CPF não é válido!\n");
+                continue;
+            }
+
             ValidadorCpf validadorCpf = new ValidadorCpf(cpfEntrada);
 
             if (validadorCpf.isValido()) {
