@@ -28,40 +28,41 @@ public class Main {
             opcao = scanner.nextInt();
 
             int n1, n2;
+            double n3, n4;
             double n;
             boolean isValid;
 
             switch (opcao) {
                 case 1:
                     System.out.print("Digite o primeiro número: ");
-                    n1 = scanner.nextInt();
+                    n3 = scanner.nextDouble();
                     System.out.print("Digite o segundo número: ");
-                    n2 = scanner.nextInt();
-                    System.out.println("Resultado: " + calc.soma(n1, n2));
+                    n4 = scanner.nextDouble();
+                    System.out.println("Resultado: " + calc.soma(n3, n4));
                     break;
 
                 case 2:
                     System.out.print("Digite o primeiro número: ");
-                    n1 = scanner.nextInt();
+                    n3 = scanner.nextDouble();
                     System.out.print("Digite o segundo número: ");
-                    n2 = scanner.nextInt();
-                    System.out.println("Resultado: " + calc.subtracao(n1, n2));
+                    n4 = scanner.nextDouble();
+                    System.out.println("Resultado: " + calc.subtracao(n3, n4));
                     break;
 
                 case 3:
                     System.out.print("Digite o primeiro número: ");
-                    n1 = scanner.nextInt();
+                    n3 = scanner.nextDouble();
                     System.out.print("Digite o segundo número: ");
-                    n2 = scanner.nextInt();
-                    System.out.println("Resultado: " + calc.multiplicacao(n1, n2));
+                    n4 = scanner.nextDouble();
+                    System.out.println("Resultado: " + calc.multiplicacao(n3, n4));
                     break;
 
                 case 4:
                     System.out.print("Digite o primeiro número: ");
-                    n1 = scanner.nextInt();
+                    n3 = scanner.nextDouble();
                     System.out.print("Digite o segundo número: ");
-                    n2 = scanner.nextInt();
-                    System.out.println("Resultado: " + calc.divisao(n1, n2));
+                    n4 = scanner.nextDouble();
+                    System.out.println("Resultado: " + calc.divisao(n3, n4));
                     break;
 
                 case 5:
